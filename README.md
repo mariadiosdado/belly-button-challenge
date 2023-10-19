@@ -62,4 +62,4 @@ Complete the following steps:
 7. Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file
 
 ## Credits
-I used the class notes and gitlab activities
+I used the class notes, gitlab activities, and Ask BCS for debugging.
