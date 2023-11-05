@@ -88,10 +88,15 @@ function buildMetadata(sample, data) {
 }
 
 function optionChanged(value) {
+
+  d3.json(url).then(function(data) {
+  console.log(value)
   // When the dropdown selection changes, update all plots and metadata
-  buildMetadata(value);
-  buildBarChart(value);
-  buildBubbleChart(value);
+  buildMetadata(value,data);
+  buildBarChart(value,data);
+  buildBubbleChart(value,data);
+
+  });
 }
 
 // Initialize the application
